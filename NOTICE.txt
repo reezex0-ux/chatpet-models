@@ -1,0 +1,25 @@
+﻿chatpet — 제3자 구성 요소 고지 / Third-party notices
+
+Powered by Kanana
+
+1. 모델: Kanana 2 3B Instruct (kakaocorp/kanana-2-3b-instruct, revision 6a5d788)
+
+   Kanana is licensed in accordance with the Kanana Open License Agreement. Copyright © KAKAO Corp. All Rights Reserved.
+
+   라이선스 전문: KANANA_LICENSE.md
+
+   수정 사항(Modified): 함께 배포되는 models\kanana2-3b-q5_k_m.gguf 는 chatpet 개발자가
+   원본 가중치를 llama.cpp b11624 의 convert_hf_to_gguf.py 로 GGUF(f16)로 변환한 뒤
+   llama-quantize 로 Q5_K_M 양자화한 파일입니다. 원본과 같지 않습니다.
+   This file was modified by the chatpet developer: converted to GGUF and quantized to Q5_K_M.
+
+   사용 제한(Policy on Prohibited Use): 이 모델과 그 파생물의 사용은 관련 법령과
+   KAKAO의 Guidelines For Responsible AI를 따라야 하며, 이 제한은 chatpet을 받는
+   모든 사용자에게도 적용됩니다(Kanana Open License Agreement 2.2, 3.1(i)).
+
+2. llama.cpp (llama-server 및 ggml 실행 파일) — MIT License
+   Copyright (c) 2023-2026 The ggml authors
+   라이선스 전문: LLAMA_CPP_LICENSE.txt
+
+3. LLVM OpenMP 런타임 (libomp.dll) — Apache License 2.0 with LLVM Exceptions
+   라이선스 전문: LLVM_OPENMP_LICENSE.txt
